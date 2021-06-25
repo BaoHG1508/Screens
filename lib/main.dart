@@ -1,7 +1,6 @@
 // @dart=2.9
 import 'package:flutter/material.dart';
-import 'Screen/LoginScreen.dart';
-import 'Screen/SignUpScreen.dart';
+import 'Screen/onBoardingScreen.dart';
 void main() {
   runApp(MyApp());
 }
@@ -10,10 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
       return MaterialApp(
-        initialRoute: SignUpScreen.id,
+        initialRoute: OnBoardingScreen.id,
         routes: {
-          LoginScreen.id: (context) => LoginScreen(),
-          SignUpScreen.id: (context) => SignUpScreen(),
+          OnBoardingScreen.id: (context) => OnBoardingScreen(),
+
         },
       );
   }

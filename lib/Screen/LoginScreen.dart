@@ -33,7 +33,6 @@ class _LoginScreenState extends State<LoginScreen> {
               colors: [
                 Color(0xff4568dc),
                 Color(0xffb06ab3)
-
               ],
             )
         ),
