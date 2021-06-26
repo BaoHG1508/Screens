@@ -1,6 +1,7 @@
 // @dart=2.9
 import 'package:flutter/material.dart';
 import 'Screen/onBoardingScreen.dart';
+import 'Screen/account.dart';
 void main() {
   runApp(MyApp());
 }
@@ -9,10 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
       return MaterialApp(
-        initialRoute: OnBoardingScreen.id,
+        initialRoute: AccountScreen.id,
         routes: {
-          OnBoardingScreen.id: (context) => OnBoardingScreen(),
-
+          AccountScreen.id: (context) => AccountScreen(),
         },
       );
   }

@@ -16,7 +16,6 @@ class Pagees extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
-
         children: [
           50.heightBox,
           SvgPicture.asset(
@@ -25,7 +24,6 @@ class Pagees extends StatelessWidget {
             width: 200,
           ),
           25.heightBox,
-
           25.heightBox,
           title.text.size(30).color(Color(0xff4568dc)).fontFamily("Inter").bold.make(),
           20.heightBox,
